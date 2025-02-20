@@ -1,4 +1,4 @@
-**BASIC CALCULATOR **
+**BASIC CALCULATOR APPPLICATION**
 
 A simple Android application built using Java in Android Studio that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
