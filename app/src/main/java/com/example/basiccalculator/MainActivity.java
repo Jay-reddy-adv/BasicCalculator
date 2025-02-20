@@ -5,7 +5,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -22,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -31,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        // Initialize views
         editText1 = findViewById(R.id.editTextNumber1);
         editText2 = findViewById(R.id.editTextNumber2);
         addButton = findViewById(R.id.addButton);
@@ -41,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         resultView = findViewById(R.id.resultView);
         resetbtn = findViewById(R.id.resetButton);
 
-        // Set onClickListeners for buttons
         addButton.setOnClickListener(v -> calculate('+'));
         subtractButton.setOnClickListener(v -> calculate('-'));
         multiplyButton.setOnClickListener(v -> calculate('*'));
@@ -84,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
             case '^':
                 editText1.setText("");
                 editText2.setText("");
-//                resultView.setText(" Made to reset , You can now enter number to Add / Subtract / Multiply / Divide.");
                 break;
 
         }
