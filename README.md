@@ -12,11 +12,11 @@ A simple Android application built using Java in Android Studio that allows user
 
 **Usage**
 
-Enter numbers using the on-screen keypad.
+✅ Enter numbers using the on-screen keypad.
 
-Select an operation ( +, -, ×, ÷ ).
+✅ Select an operation ( +, -, ×, ÷ ).
 
-Use "Reset" to clear the input.
+✅ Use "Reset" to clear the input.
 
 **Future Improvements**
 
