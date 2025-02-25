@@ -2,7 +2,7 @@
 
 A simple Android application built using Java in Android Studio that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-**Features**
+**Features** :
 
 ✔️ Perform basic arithmetic operations (+, -, ×, ÷)
 
@@ -10,7 +10,7 @@ A simple Android application built using Java in Android Studio that allows user
 
 ✔️ Simple and intuitive user interface
 
-**Usage**
+**Usage** :
 
 ✅ Enter numbers using the on-screen keypad.
 
@@ -18,7 +18,7 @@ A simple Android application built using Java in Android Studio that allows user
 
 ✅ Use "Reset" to clear the input.
 
-**Future Improvements**
+**Future Improvements** :
 
 History of calculations
 
